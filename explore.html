@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Navbar</title>
+    <meta
+      name="description"
+      content="Discover interactive science programs for kids, educational resources for teachers, and research opportunities at Trondheim's Community Science Museum."
+    />
+    <title>Explore | Community Science Museum</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,22 +18,23 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/explore.css" />
   </head>
-  <body>
+  <body class="container">
     <header>
-      <nav class="navbar">
+      <nav class="navbar" aria-label="Main navigation">
         <a href="/index.html" class="logo">
-          <img src="./images/logo.jpg" alt="" />
+          <img src="./images/logo.jpg" alt="Community Science Museum logo" />
         </a>
         <input type="checkbox" id="menu-toggle" class="menu-toggle" />
-        <label for="menu-toggle" class="hamburger">
+        <label for="menu-toggle" class="hamburger" aria-label="Mobile menu">
           <span class="material-symbols-outlined icon-menu">menu</span>
           <span class="material-symbols-outlined icon-close">close</span>
         </label>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="explore.html">Explore</a></li>
+          <li><a href="explore.html" class="active">Explore</a></li>
           <li><a href="exhibition.html">Exhibition</a></li>
           <li><a href="events.html">Events</a></li>
           <li><a href="visit.html">Visit</a></li>
@@ -39,6 +44,144 @@
     </header>
     <main>
       <h1 class="page-title">Explore</h1>
+      <section class="section-1">
+        <h2>For kids</h2>
+        <div class="section-1-container">
+          <div class="section-content">
+            <p>
+              Are you a young person looking to learn more about science? Come
+              on down to our museum, there’s plenty to see and do.
+            </p>
+            <img
+              src="images/kid-sec.jpg"
+              class="section-img"
+              alt="Young visitor wearing a virtual‑reality headset while painting at an interactive museum station"
+            />
+          </div>
+
+          <div class="section-content">
+            <p>
+              You can learn about Newtonian physics from our bumper swing, or
+              why not travel back in time and meet our resident Woolly Mammoth?
+              Our exhibits are designed to be accessible for interested minds,
+              so make sure you come ready to learn and explore.
+            </p>
+            <img
+              src="images/kid-sec2.jpg"
+              class="section-img"
+              alt="Illustration of a woolly mammoth standing in a prehistoric valley under a dramatic sunset sky"
+            />
+          </div>
+
+          <div class="section-content">
+            <p>
+              We also have the Young Stars club which meets once a week on a
+              Saturday between 10:00 and 13:00 where you’ll get to explore and
+              experiment with our team of experts.
+            </p>
+            <img
+              src="images/kid-sec3.jpg"
+              class="section-img"
+              alt="Person in a lab coat and safety goggles inspecting a large scientific chamber in a laboratory"
+            />
+          </div>
+
+          <div class="section-content">
+            <p>
+              During the school holidays we run special holiday clubs where you
+              can join other children your age to go on a journey of discovery.
+              Each holiday we pick a new theme to explore. To find out more
+              about the holiday club and how you can join, send us a message.
+            </p>
+            <img
+              src="images/kid-sec4.jpg"
+              class="section-img"
+              alt="Children in scout uniforms gathered around a tent, examining a box of discovery tools at an outdoor holiday club"
+            />
+          </div>
+        </div>
+        <a href="visit.html" class="btn">Visit Us</a>
+      </section>
+      <section class="section-2">
+        <div class="section-1-container">
+          <div>
+            <h2>For teachers</h2>
+            <div class="section-content">
+              <p>
+                As a community-driven museum, we want to work with schools to
+                create places of learning and exploring. Our team are on hand to
+                give your students guided tours of the museum, teach them in our
+                learning laboratory, and provide great video presentations that
+                will excite and inspire them. Please get in touch with us here
+                to find out more about our facilities and to arrange a time to
+                bring your students through for a visit.
+              </p>
+              <img
+                src="images/teacher.jpg"
+                class="section-img"
+                alt="Teacher standing at the front of a classroom, smiling as students listen from their desks"
+              />
+            </div>
+          </div>
+
+          <div>
+            <h2>Researchers</h2>
+            <div class="section-content">
+              <p>
+                Are you looking to get involved with our team of researchers and
+                academics? Our museum offers various ways for you to use our
+                resources and contribute towards them. We have online records,
+                laboratory space, and a working relationship with a number of
+                universities around the country.
+              </p>
+              <img
+                src="images/researchers.jpg"
+                class="section-img"
+                alt="Two researchers in lab coats and goggles examining a vial in a modern laboratory"
+              />
+            </div>
+          </div>
+        </div>
+        <a href="visit.html" class="btn">Get in touch</a>
+      </section>
     </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <a href="/index.html">
+            <img src="./images/logo.jpg" alt="Community Science Museum logo" />
+          </a>
+        </div>
+
+        <div class="footer-content-container">
+          <div class="footer-content">
+            <h3>Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="explore.html">Explore</a></li>
+              <li><a href="exhibition.html">Exhibition</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="visit.html">Visit</a></li>
+              <li><a href="get-involved.html">Get Involved</a></li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <h3>Opening Hours</h3>
+            <p>Monday: Closed</p>
+            <p>Tuesday: 10:00 - 16:00</p>
+            <p>Wednesday: 10:00 - 16:00</p>
+            <p>Thursday: 10:00 - 16:00</p>
+            <p>Friday: 10:00 - 19:00</p>
+            <p>Saturday: 09:00 - 16:00</p>
+            <p>Sunday: 09:00 - 13:00</p>
+          </div>
+          <div class="footer-content">
+            <h3>Location</h3>
+            <p>Kongens Gate 1</p>
+            <p>7011 Trondheim</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
