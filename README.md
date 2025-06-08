@@ -1,3 +1,5 @@
+## Community Science Museum
+
 ![museum](https://github.com/user-attachments/assets/3fbcac79-f920-4349-941d-425f63086c4d)
 
 A responsive and engaging website for a fictional science museum, designed for children (ages 7–15) and their families. The project focuses on delivering educational value through a fun and accessible interface.
